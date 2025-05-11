@@ -5,14 +5,14 @@ from skfuzzy import control as ctrl
 from time import sleep
 
 
-
+"""Falta repartir em módulos, 3 devem dar, talvez não foi a melhor opção aplicar oo em tudo"""
 
 class Fuzzy():
 
 
     def __init__(self):
 
-
+        
         self.umidade = ""
         self.temperatura = ""
         self.arcondicionado = ""
